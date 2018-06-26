@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bookFind_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true">
+
+    <ImageView
+
+        android:id="@+id/bookFind_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@color/cardview_dark_background"/>
+
+    <TextView
+        android:id="@+id/bookFind_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="normal|bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:text="武侠"
+        android:textSize="24dp"/>
+</android.support.v7.widget.CardView>

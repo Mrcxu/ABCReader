@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/logo"
+        android:title="    我的消息" />
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/logo"
+
+        android:title="    反馈建议" />
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/logo"
+        android:title="    检查更新" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/logo"
+        android:title="    关于" />
+
+</menu>

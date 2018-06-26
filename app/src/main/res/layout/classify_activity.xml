@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_na"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iloved.abcreader.activity.ClassifyActivity"
+    android:descendantFocusability="blocksDescendants">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="#7b7c7c"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="126dp"
+                android:layout_height="49dp"
+                android:src="@drawable/kind" />
+
+            <ImageView
+                android:layout_width="253dp"
+                android:layout_height="35dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/logobar" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="类别:"
+                android:textSize="30dp" />
+            <TextView
+                android:text=""
+                android:id="@+id/spin_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/professionals" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+        <ListView
+            android:id="@+id/classify_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+

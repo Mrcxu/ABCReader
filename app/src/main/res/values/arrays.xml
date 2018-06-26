@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="professionals">
+        <item>玄  幻</item>
+        <item>武  侠</item>
+        <item>都  市</item>
+        <item>历  史</item>
+        <item>游  戏</item>
+        <item>科  幻</item>
+        <item>女  生</item>
+        <item>排行榜</item>
+    </string-array>
+</resources>
