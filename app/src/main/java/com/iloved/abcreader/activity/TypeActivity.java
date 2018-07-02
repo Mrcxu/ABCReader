@@ -60,13 +60,6 @@ public class TypeActivity extends AppCompatActivity {
             R.drawable.b,
             R.drawable.a
     };
-    private String[] titles = new String[]{
-            "轮播1",
-            "轮播2",
-            "轮播3",
-            "轮播4",
-            "轮播5"
-    };
     private ScheduledExecutorService scheduledExecutorService;
     private List<ListItemModel> myListItems;
 
